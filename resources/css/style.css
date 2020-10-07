@@ -1,0 +1,123 @@
+ /*green=#52C77B */
+ /*dark green=#5CB179  */
+ /*black=#4E735B   */
+
+
+/* basic setup*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#fff;
+    font-family: 'Lato', 'Arial', sans-serif;
+    color: darkslategrey;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow:hidden;
+        
+}
+
+
+
+/*resuable*/
+
+.row{
+    width: 1440px;
+    height: 0 auto;
+}
+
+.box {
+     line-height: 145%;
+} 
+/* ----- LINKS ----- */
+
+a:link,
+a:visited {
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #fff;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
+/* navi*/
+.
+
+        
+.nav__img{
+    height: 50px;
+    width: auto;
+    float: left;
+    padding-left: 20px;
+    
+}
+
+.nav__list{
+     list-style: none;
+     float: right;
+     transform: translate(10%,10%);
+     padding-top: 25px;
+     margin-right: 20px;
+  
+    
+}
+.nav__list li{
+     display: inline-block;
+     margin-left: 40px;
+     text-transform: uppercase;
+   
+}
+
+/* header*/
+
+
+header{
+    background-image: linear-gradient( to right bottom,#52C77B,#4E735B );
+    height: 100vh;  
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+
+.intro__img{
+     width: 60%;
+     height: 80%;
+     margin-left: 100px;
+     border-radius: 50%;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, ;
+    transition: transform 0.5s; 
+}
+.intro__img:hover {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+.intro__text{
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 115%;
+    text-align:justify;   
+    color: #fff;
+}
+
+ 
+
+    
