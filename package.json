@@ -1,0 +1,21 @@
+{
+  "name": "sondiha",
+  "version": "1.0.0",
+  "description": "village website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Sondiha"
+  },
+  "author": "Abhinav kumar singh",
+  "license": "ISC",
+   "devdependencies":{  "node-sass": "^4.14.1"
+                  },
+ 
+    
+    "dependencies": {
+    "jquery": "^3.5.1",
+}
